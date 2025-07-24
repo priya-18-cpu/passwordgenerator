@@ -11,6 +11,6 @@ def password_generator():
     length=int(input("Enter the desired password length:"))
     password=generate_password(length)
     
-    print(f"Generate password:{password}")
+    print(f"Generated password:{password}")
     
 password_generator()
